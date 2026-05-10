@@ -64,3 +64,21 @@ To change the color of the drawing (file "draw_graph.c") :
     2) Black background with White lines, set "COL_GRADIENT" to 1 and "NO_BINS" to 1
 
     3) Colors with Gradient (default), set "COL_GRADIENT" to 1 and "NO_BINS" to 7
+
+If you use this code, please cite the following paper:-
+
+    @inproceedings{10.1145/3404397.3404471,
+    author = {Mishra, Ashirbad and Kirmani, Shad and Madduri, Kamesh},
+    title = {Fast Spectral Graph Layout on Multicore Platforms},
+    year = {2020},
+    isbn = {9781450388160},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3404397.3404471},
+    doi = {10.1145/3404397.3404471},
+    articleno = {45},
+    numpages = {11},
+    keywords = {sparse matrix vector multiplication, orthogonalization, graph layout, graph embedding, breadth-first search},
+    location = {Edmonton, AB, Canada},
+    series = {ICPP '20}
+    }
